@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title>Hotel Booking</title>
+	</head>
+	<style>
+		body{
+			background-color: cyan;
+		}
+		h1 {
+			font-family: verdana;
+			font-size: 25px;
+			color: red;
+			text-decoration: underline;
+			border: 5px dashed black
+			
+		}
+		table{	
+			border: 5px solid brown;
+			background-color: yellow;
+		}
+	</style>
+	<body>
+	<center>
+		<h1> Registration from </h1>
+		<form action="submit.html" method="get">	
+		<table cellpadding="20">
+			<tr>
+				<td>Customer Name:</td>
+				<td>
+					<input type="text" placeholder="Name" maxlength="20">
+				</td>
+			</tr>
+			<tr>
+				<td>Number of days:</td>
+				<td><input type="number" min= "0" placeholder="Number of days"></td>
+			</tr>
+			<tr>
+				<td>Room:</td>
+				<td><input type="radio">AC <input type="radio">NON-AC</td>
+			</tr>
+			<tr>
+				<td>Room type:</td>
+				<td>
+					<select>
+						<option>Single</option>
+						<option>Double</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Place:</td>
+				<td>
+					<select>
+						<option selected>Bangalore</option>
+						<option>Kerela</option>
+						<option>Karnataka</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Pin:</td>
+				<td>
+					<input type="text" value="56">
+				</td>
+			</tr>
+			<tr>
+				<td>Mobile Number:</td>
+				<td>
+					<input type="text" maxlength="10" placeholder="88855566">
+				</td>
+			</tr>
+			<tr align = "center">
+				<td><input type="submit"></td>
+				<td>
+					<input type="reset">
+				</td>
+			</tr>
+			
+		</table>
+	
+		</from>
+	</center>
+	</body>
+</html>
